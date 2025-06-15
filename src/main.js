@@ -2,6 +2,8 @@ const { App } = require("@slack/bolt");
 const OpenAI = require("openai");
 require("dotenv").config();
 
+// This is unfinished prototype
+
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
